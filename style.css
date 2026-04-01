@@ -1,0 +1,68 @@
+/* Обнуляющие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #313131;
+
+    /* По центру */
+    text-align: center;
+
+    /* Внутренний отступ: вверх и низ 24px, справа и слева 0px */
+    padding: 24px 0;
+}
+
+main {
+    /* Ставим по центру */
+    text-align: center;
+
+    /* Задний фон */
+    background: #141415;
+}
+
+.title {
+    /* Жирность текста */
+    font-weight: 700;
+    /* Размер текста */
+    font-size: 40px;
+    /* Цвет текста */
+    color: #fff;
+
+    /* Ширина */
+    width: 560px;
+
+    /* Ставит в центр. Сверху и снизу 0px, слева и справа автоматически(Одинаково) */
+    margin: 0 auto;
+}
+
+.link a {
+    font-weight: 700;
+    font-size: 15px;
+    color: #51acff;
+}
+.main_numbers{
+display: flex;
+justify-content: center;
+gap: 65px;
+font-size: 30px;
+text-align: start;
+}
+.number_suptitle{
+font-size: 10px;
+color:  white;
+}
+.main_number{
+font-family: var(font family);
+font-weight: 700;
+font-size: 35px;
+color: white ;
+}
+.number_suptitle{
+font-family: var(third family);
+font-weight: 400;
+font-size: 15px;
+color: white;
+}
